@@ -1,10 +1,15 @@
-const http = require("http")
+const express = require("express")
+const app = express()
 
-const app = http.createServer((req, res) => {
-    res.writeHead(200, {"Content-Type": "text/plain"})
-    res.end("Hello World")
+app.get("/", (req, res) => {
+    res.send("<h1>Hello World!</h1>")
 })
 
-const port = 3001
-app.listen(port)
-console.log(`Server running on port ${port}`)
+app.get("/cryptos", (req, res) => {
+    res.json(notes)
+})
+
+const PORT = 3001
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`)
+})
