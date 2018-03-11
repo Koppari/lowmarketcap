@@ -9,7 +9,7 @@ cryptoRouter.get('/', async(req, res) => {
         .map(c => {
             return {name: c.name, symbol: c.symbol, mcap: c.market_cap_usd}
         })
-        .filter(c => c.mcap < 10000000)
+        .filter(c => c.mcap <= 100000000)
     res.send(relevantInfo)
 })
 
