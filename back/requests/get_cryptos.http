@@ -1,1 +1,1 @@
-GET https://chasing-coins.com/api/v1/coins
+GET http://localhost:3001/api/cryptos

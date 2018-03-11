@@ -9,7 +9,7 @@
 
 ---
 
-11.3.2018
+11.3
 - Setting up back end and dependencies, writing README, more planning, reading up on MD syntax.
 - Controllers, models, tests, utils, env etc. 
 - ~~Testing cryptocompare API for fetching marketcaps~~
@@ -17,8 +17,12 @@
 - Testing coinmarketcap API for fetching both.  
 **5h**
 
+- Started with test classes, middleware
+- Looking at different NPM options
+**1.5h**
+
 ---
 
-####Yht. 7h####
+####Yht. 8.5h####
 
 

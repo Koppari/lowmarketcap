@@ -1,22 +1,35 @@
-const http = require('http')
 const express = require('express')
+const http = require('http')
 const app = express()
+const server = http.createServer(app)
+
+const cryptoRouter = require('./controllers/cryptos')
+
+const config = require('./utils/config')
+const middleware = require('./utils/middleware')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
-const cryptoRouter = require('./controllers/cryptos')
-const config = require('./utils/config')
-
 app.use(cors())
 app.use(bodyParser.json())
+app.use('/api/cryptos', cryptoRouter)
+app.use(middleware.error)
 
 mongoose.connect(config.mongoUrl)
 mongoose.Promise = global.Promise
 
-app.use('/api/cryptos', cryptoRouter)
-
-const PORT = 3001
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`)
+server.listen(config.port, () => {
+    console.log(`Server running on port ${config.port}`)
 })
+
+server.on('close', () => {
+    mongoose
+        .connection
+        .close()
+})
+
+module.exports = {
+    app,
+    server
+}
