@@ -2,7 +2,7 @@
 
 ## About
 
-LowMarketCap lets the user track cryptocurrencies low market capitalizations. The aim is to provide a smooth searching experience for anyone who wants to easily look up relevant information on a promising blockchain project. 
+LowMarketCap lets the user track cryptocurrencies with low market capitalizations. The aim is to provide a smooth searching experience for anyone who wants to easily look up relevant information on a promising blockchain project.
 
 ## Planned features
 
@@ -11,3 +11,4 @@ LowMarketCap lets the user track cryptocurrencies low market capitalizations. Th
 * Social media mentions for currencies.
     * First implementation for Reddit.
 * Filtering.
+* ICO info.
