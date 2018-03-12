@@ -16,13 +16,13 @@
 - ~~Testing chasing-coins API for fetching coin tickers~~
 - Testing coinmarketcap API for fetching both.  
 **5h**
-
+  
 - Started with test classes, middleware
-- Looking at different NPM options
+- Looking at different NPM options  
 **1.5h**
 
 ---
 
-####Yht. 8.5h####
+####Yht. 8.5h
 
 
