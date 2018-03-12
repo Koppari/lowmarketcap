@@ -17,10 +17,17 @@
 - Testing coinmarketcap API for fetching both.
 - Started with test classes, middleware
 - Looking at different NPM options  
-**6.5h**
+**6h 30min**
 
 ---
 
-### Yht. 9.5h
+12.3
+- Front end dependencies set up, id for cryptos from backend
+- First UI made, need to find a way to paginate results  
+**2h 30min**
+
+---
+
+### Yht. 12h
 
 
