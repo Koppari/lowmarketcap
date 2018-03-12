@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Koppari/lowmarketcap#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.2",
     "coinmarketcap": "^0.2.0",
     "cors": "^2.8.4",
     "cryptocompare": "^0.4.0",
@@ -31,7 +32,8 @@
     "mongoose": "^5.0.9",
     "morgan": "^1.9.0",
     "morgan-body": "^2.4.0",
-    "node-fetch": "^2.1.1"
+    "node-fetch": "^2.1.1",
+    "shortid": "^2.2.8"
   },
   "devDependencies": {
     "cross-env": "^5.1.4",
