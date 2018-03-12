@@ -11,15 +11,13 @@
 
 11.3
 - Setting up back end and dependencies, writing README, more planning, reading up on MD syntax.
-- Controllers, models, tests, utils, env etc. 
+- Controllers, models, tests, utils, env etc.
 - ~~Testing cryptocompare API for fetching marketcaps~~
 - ~~Testing chasing-coins API for fetching coin tickers~~
-- Testing coinmarketcap API for fetching both.  
-**5h**
- 
+- Testing coinmarketcap API for fetching both.
 - Started with test classes, middleware
 - Looking at different NPM options  
-**1.5h**
+**6.5h**
 
 ---
 
