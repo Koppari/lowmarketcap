@@ -13,7 +13,9 @@ const Crypto = ({crypto}) => {
                     src="https://www.cryptocompare.com/media/19684/doge.png"
                     alt={crypto.name}
                     className="ui image"/>
-                <div className="content">{crypto.name}<div className="sub header">{crypto.symbol}</div></div>
+                <div className="content">{crypto.name}
+                    <div className="sub header">{crypto.symbol}</div>
+                </div>
             </h2>
 
             <div className="ui divider"></div>
@@ -23,7 +25,5 @@ const Crypto = ({crypto}) => {
         </div>
     )
 }
-
-//replace crypto image with 
 
 export default Crypto
