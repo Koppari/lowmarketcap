@@ -5,7 +5,9 @@ const Menu = () => {
     return (
         <div className="ui borderless menu">
             <div className="item">
-            <a href="/">LowMarketCap</a>
+                <h2>
+                    <a class="header" href="/">LowMarketCap</a>
+                </h2>
             </div>
             <div className="right menu">
                 <div className="item">

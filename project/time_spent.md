@@ -36,8 +36,13 @@
 - Changed backend to show all results instead of filtering them  
 **4h 30min**
 
+- Fetching images for individual cryptos
+- More info from coinmarketcap API  
+- UI changes, relevant info on the main page
+**2h 30min**
+
 ---
 
-### Yht. 16h 30min
+### Yht. 19h
 
 

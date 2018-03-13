@@ -1,27 +1,28 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Table} from 'semantic-ui-react';
 
 const CryptoList = ({cryptos}) => {
     return (
-        <Table className="ui fixed single line table">
+        <table className="ui fixed single line table">
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Symbol</th>
                     <th>Market cap</th>
+                    <th>Price</th>
+                    <th>Change (24h)</th>
                 </tr>
             </thead>
             <tbody>
-                {cryptos.map(c => <tr key={c.rId}>
+                {cryptos.map(c => <tr key={c.id}>
                     <td>
-                        <Link to={`/cryptos/${c.id}`}>{c.name}</Link>
+                        <Link to={`/cryptos/${c.id}`}>{c.name}</Link>{' '}<small>{c.symbol}</small>
                     </td>
-                    <td>{c.symbol}</td>
-                    <td>{c.mcap}</td>
+                    <td>${c.mcap}</td>
+                    <td>${c.price_usd}</td>
+                    <td>{c.change}%</td>
                 </tr>)}
             </tbody>
-        </Table>
+        </table>
     )
 }
 
