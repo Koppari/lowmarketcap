@@ -28,6 +28,16 @@
 
 ---
 
-### Yht. 12h
+13.3
+- Researching pagination, fixing some errors
+- Planning UI, trying out Semantic options 
+- View for individual cryptos
+    - To-do: fetch crypto icons from cryptocompare API 
+- Changed backend to show all results instead of filtering them  
+**4h 30min**
+
+---
+
+### Yht. 16h 30min
 
 

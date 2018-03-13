@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {Container} from 'semantic-ui-react';
+import {BrowserRouter} from 'react-router-dom'
 
-import CryptoList from './components/CryptoList'
+import CryptoRouter from './components/CryptoRouter'
+import Menu from './components/Menu'
 
 import {connect} from 'react-redux'
 import {cryptoInitialization} from './reducers/cryptoReducer'
@@ -17,10 +19,12 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <div>
-          <h1>LowMarketCap</h1>
-          <CryptoList/>
-        </div>
+        <BrowserRouter>
+          <div>
+            <Menu/>
+            <CryptoRouter/>
+          </div>
+        </BrowserRouter>
       </Container>
     );
   }
