@@ -38,11 +38,11 @@
 
 - Fetching images for individual cryptos
 - More info from coinmarketcap API  
-- UI changes, relevant info on the main page
-**2h 30min**
+- UI changes, relevant info on the main page  
+**3h 30min**
 
 ---
 
-### Yht. 19h
+### Yht. 20h
 
 

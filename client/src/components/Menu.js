@@ -1,12 +1,11 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 const Menu = () => {
     return (
         <div className="ui borderless menu">
             <div className="item">
                 <h2>
-                    <a class="header" href="/">LowMarketCap</a>
+                    <a className="header" href="/">LowMarketCap</a>
                 </h2>
             </div>
             <div className="right menu">
@@ -21,6 +20,4 @@ const Menu = () => {
     )
 }
 
-const ConnectedMenu = connect(null)(Menu)
-
-export default ConnectedMenu
+export default Menu

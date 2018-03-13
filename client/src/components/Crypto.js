@@ -1,4 +1,5 @@
 import React from 'react'
+import NumberFormat from 'react-number-format'
 const imgUrl = 'https://raw.githubusercontent.com/crypti/cryptocurrencies/master/images/'
 
 const Crypto = ({crypto}) => {
@@ -11,10 +12,10 @@ const Crypto = ({crypto}) => {
         <div>
             <h2 className="ui centered borderless header">
                 <img
-                    src={`${imgUrl + crypto.symbol}.png`}
                     onError={(e) => {
-                    e.target.src = `${imgUrl + crypto.symbol}.jpg`
+                    e.target.src = 'https://screenshotlayer.com/images/assets/placeholder.png'
                 }}
+                    src={`${imgUrl + crypto.symbol}.png`}
                     alt={crypto.symbol}
                     className="ui image"/>
                 <div className="content">{crypto.name}
@@ -23,8 +24,34 @@ const Crypto = ({crypto}) => {
             </h2>
 
             <div className="ui divider"></div>
-            <div>Market cap: {crypto.mcap}$</div>
-            <div>Price: {crypto.price_usd}$</div>
+
+            <div className="ui grid container">
+                <div className="four wide column">
+                    <div className="header">Market cap:</div>
+                    <NumberFormat
+                        value={crypto.mcap === null
+                        ? 'Unknown'
+                        : crypto.mcap}
+                        displayType={'text'}
+                        thousandSeparator={true}
+                        prefix={'$'}/>
+                </div>
+                <div className="four wide column">
+                    <div className="header">Price:</div>
+                    <NumberFormat
+                        value={crypto.price_usd === null
+                        ? 'Unknown'
+                        : crypto.price_usd}
+                        displayType={'text'}
+                        thousandSeparator={true}
+                        prefix={'$'}/>
+                </div>
+                <div className="four wide column">
+                    <div className="header">Change (24h):</div>
+                    {crypto.change}%
+                </div>
+
+            </div>
         </div>
     )
 }
