@@ -6,9 +6,10 @@ LowMarketCap lets the user track cryptocurrencies with low market capitalization
 
 ## Planned features
 
-* Listing coins and tokens with a sub $100 million market cap.
-* Paginated single page search.
+* Listing coins and tokens with easy filtering to only show low market cap ones.
+* By default shows all coins, will have useful preset filters above the list.
+* Either a paginated search or search based on filtering a search bar that happens on one page.
 * Social media mentions for currencies.
     * First implementation for Reddit.
-* Filtering.
+* Filtering, this needs to be better than CoinMarketCap.
 * ICO info.
