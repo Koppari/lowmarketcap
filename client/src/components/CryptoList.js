@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import NumberFormat from 'react-number-format'
 
 const CryptoList = ({cryptos}) => {
-    if (crypto == null) 
+    if (cryptos == null) 
     return (
         <div className="ui large active loader"></div>
     )

@@ -50,6 +50,16 @@ const Crypto = ({crypto}) => {
                     <div className="header">Change (24h):</div>
                     {crypto.change}%
                 </div>
+                <div className="four wide column">
+                    <div className="header">Volume (24h):</div>
+                    <NumberFormat
+                        value={crypto.volume === null
+                        ? 'Unknown'
+                        : crypto.volume}
+                        displayType={'text'}
+                        thousandSeparator={true}
+                        prefix={'$'}/>
+                </div>
 
             </div>
         </div>

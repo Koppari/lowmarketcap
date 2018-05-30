@@ -43,6 +43,14 @@
 
 ---
 
+21.5 
+14:10 - 15:20
+--- salibreak
+
+- Remembering what I had done with the project
+- Implementing sorting by table headers to the front page
+
+
 ### Yht. 20h
 
 
