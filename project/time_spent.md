@@ -43,14 +43,17 @@
 
 ---
 
-21.5 
-14:10 - 15:20
---- salibreak
-
+21.5
 - Remembering what I had done with the project
-- Implementing sorting by table headers to the front page
+- Implementing sorting by table headers to the front page  
+**1h 10min**
+
+---
+
+31.5
+- Setting up the app in Heroku
 
 
-### Yht. 20h
+### Yht. 21h 10min
 
 
