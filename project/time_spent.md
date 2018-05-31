@@ -30,14 +30,14 @@
 
 13.3
 - Researching pagination, fixing some errors
-- Planning UI, trying out Semantic options 
+- Planning UI, trying out Semantic options
 - View for individual cryptos
-    - To-do: fetch crypto icons from cryptocompare API 
+    - To-do: fetch crypto icons from cryptocompare API
 - Changed backend to show all results instead of filtering them  
 **4h 30min**
-
+  
 - Fetching images for individual cryptos
-- More info from coinmarketcap API  
+- More info from coinmarketcap API
 - UI changes, relevant info on the main page  
 **3h 30min**
 

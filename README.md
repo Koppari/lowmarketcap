@@ -13,3 +13,8 @@ LowMarketCap lets the user track cryptocurrencies with low market capitalization
     * First implementation for Reddit.
 * Filtering, this needs to be better than CoinMarketCap.
 * ICO info.
+
+## Links
+
+* [Time spent](https://github.com/Koppari/lowmarketcap/blob/master/project/time_spent.md)
+* [User instructions](https://github.com/Koppari/lowmarketcap/blob/master/project/user_instructions.md)
