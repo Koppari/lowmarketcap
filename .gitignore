@@ -62,3 +62,9 @@ typings/
 
 # plans
 planning.md
+
+# production
+/build
+
+# procfile
+Procfile
