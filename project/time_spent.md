@@ -35,6 +35,8 @@
     - To-do: fetch crypto icons from cryptocompare API
 - Changed backend to show all results instead of filtering them  
 **4h 30min**
+
+  ...
   
 - Fetching images for individual cryptos
 - More info from coinmarketcap API
