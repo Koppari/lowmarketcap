@@ -11,6 +11,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+app.use(express.static('build'))
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/api/cryptos', cryptoRouter)

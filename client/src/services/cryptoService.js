@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/api/cryptos'
+const baseUrl = 'api/cryptos'
 
 const getAll = async() => {
   const request = await axios.get(baseUrl)
