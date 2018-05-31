@@ -47,7 +47,7 @@
 
 21.5
 - Remembering what I had done with the project
-- Implementing sorting by table headers to the front page  
+- Implementing sorting by table headers to the front page (still to-do)  
 **1h 10min**
 
 ---
