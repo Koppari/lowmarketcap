@@ -53,9 +53,10 @@
 ---
 
 31.5
-- Setting up the app in Heroku
+- Setting up the app in Heroku  
+**1h**
 
 
-### Yht. 21h 10min
+### Yht. 22h 10min
 
 
