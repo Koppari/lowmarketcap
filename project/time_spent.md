@@ -35,6 +35,8 @@
     - To-do: fetch crypto icons from cryptocompare API
 - Changed backend to show all results instead of filtering them  
 **4h 30min**
+
+  ...
   
 - Fetching images for individual cryptos
 - More info from coinmarketcap API
@@ -51,9 +53,10 @@
 ---
 
 31.5
-- Setting up the app in Heroku
+- Setting up the app in Heroku  
+**1h**
 
 
-### Yht. 21h 10min
+### Yht. 22h 10min
 
 
