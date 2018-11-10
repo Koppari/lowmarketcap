@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 app.use('/api/cryptos', cryptoRouter)
 app.use(middleware.error)
 
-mongoose.connect(config.mongoUrl)
+mongoose.connect(config.mongoUrl, {useNewUrlParser: true})
 mongoose.Promise = global.Promise
 
 server.listen(config.port, () => {
