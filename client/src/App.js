@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Container} from 'semantic-ui-react';
-import {BrowserRouter} from 'react-router-dom'
+import React, {Component} from 'react'
+import {Container} from 'semantic-ui-react'
+import {HashRouter} from 'react-router-dom'
 
 import CryptoRouter from './components/CryptoRouter'
 import Menu from './components/Menu'
@@ -10,7 +10,7 @@ import {cryptoInitialization} from './reducers/cryptoReducer'
 import cryptoService from './services/cryptoService'
 
 class App extends Component {
-  componentDidMount = async() => {
+  componentDidMount = () => {
     this
       .props
       .cryptoInitialization()
@@ -19,12 +19,12 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <BrowserRouter>
+        <HashRouter>
           <div>
             <Menu/>
             <CryptoRouter/>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </Container>
     );
   }

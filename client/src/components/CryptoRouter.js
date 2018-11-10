@@ -1,6 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {HashRouter, Route} from 'react-router-dom'
 
 import Crypto from './Crypto'
 import CryptoList from './CryptoList'
@@ -15,7 +15,7 @@ class CryptoRouter extends React.Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <div>
                     <Route
                         exact
@@ -26,7 +26,7 @@ class CryptoRouter extends React.Component {
                         path='/cryptos/:id'
                         render={({match}) => <Crypto crypto={this.cryptoById(match.params.id)}/>}/>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
@@ -38,4 +38,4 @@ const mapStateToProps = (state) => {
 
 const ConnectedCryptoRouter = connect(mapStateToProps)(CryptoRouter)
 
-export default ConnectedCryptoRouter
+export default (ConnectedCryptoRouter)

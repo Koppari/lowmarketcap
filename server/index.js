@@ -1,17 +1,19 @@
 const express = require('express')
 const http = require('http')
-const app = express()
-const server = http.createServer(app)
-
-const cryptoRouter = require('./controllers/cryptos')
-
-const config = require('./utils/config')
-const middleware = require('./utils/middleware')
+const path = require('path')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+const cryptoRouter = require('./controllers/cryptos')
+const config = require('./utils/config')
+const middleware = require('./utils/middleware')
+
+const app = express()
+const server = http.createServer(app)
+
 app.use(express.static('build'))
+
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/api/cryptos', cryptoRouter)

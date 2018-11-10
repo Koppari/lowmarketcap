@@ -33,6 +33,7 @@
     "morgan": "^1.9.1",
     "morgan-body": "^2.4.5",
     "node-fetch": "^2.2.1",
+    "path": "^0.12.7",
     "shortid": "^2.2.14"
   },
   "devDependencies": {

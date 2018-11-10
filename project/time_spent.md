@@ -56,13 +56,17 @@
 - Setting up the app in Heroku  
 **1h**
 
----
+
+### Yht. 22h 40min 13.2 - 31.5
+
 
 10.11
 - Updating old dependencies, getting ready to continue the project  
-**30min**
+- Fixing routing issues, new updates had broken some of them
+- Making small fixes according to the old code review I received  
+**3h**
 
 
-### Yht. 22h 40min
+### Yht. 3h
 
 
