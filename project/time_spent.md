@@ -42,7 +42,7 @@
 - More info from coinmarketcap API
 - UI changes, relevant info on the main page  
 **3h 30min**
-
+*
 ---
 
 21.5
@@ -56,7 +56,13 @@
 - Setting up the app in Heroku  
 **1h**
 
+---
 
-### Yht. 22h 10min
+21.5
+- Updating old dependencies, getting ready to continue the project  
+**30min**
+
+
+### Yht. 22h 40min
 
 
