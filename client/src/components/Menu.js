@@ -1,5 +1,7 @@
 import React from 'react'
 
+import SearchBar from './SearchBar'
+
 const Menu = () => {
     return (
         <div className="ui borderless menu">
@@ -11,8 +13,7 @@ const Menu = () => {
             <div className="right menu">
                 <div className="item">
                     <div className="ui icon input">
-                        <input placeholder="Search" type="text"/>
-                        <i className="search icon"></i>
+                        <SearchBar/>
                     </div>
                 </div>
             </div>

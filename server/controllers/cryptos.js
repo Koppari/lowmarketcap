@@ -1,6 +1,5 @@
 const cryptoRouter = require('express').Router()
 const coinmarketcap = require('coinmarketcap')
-const path = require('path')
 global.fetch = require('node-fetch')
 
 cryptoRouter.get('/', async(req, res) => {

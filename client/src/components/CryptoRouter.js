@@ -38,4 +38,4 @@ const mapStateToProps = (state) => {
 
 const ConnectedCryptoRouter = connect(mapStateToProps)(CryptoRouter)
 
-export default (ConnectedCryptoRouter)
+export default(ConnectedCryptoRouter)

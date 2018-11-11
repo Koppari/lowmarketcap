@@ -1,6 +1,6 @@
 import cryptoService from '../services/cryptoService'
 
-const cryptoReducer = (state = [], action) => {
+const cryptoReducer = (state = [], action) => {  
     switch (action.type) {
         case 'INIT_CRYPTOS':
             return action.cryptos
