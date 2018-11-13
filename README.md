@@ -18,6 +18,6 @@ LowMarketCap lets the user track cryptocurrencies with low market capitalization
 
 ## Links
 
-* [App](https://gentle-refuge-15739.herokuapp.com/)
+* [App](https://gentle-refuge-15739.herokuapp.com/) (Not up-to-date)
 * [Time spent](https://github.com/Koppari/lowmarketcap/blob/master/project/time_spent.md)
 * [User instructions](https://github.com/Koppari/lowmarketcap/blob/master/project/user_instructions.md)
